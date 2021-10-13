@@ -1,0 +1,84 @@
+<!--HTML-->
+<body>
+    <div id="container">
+        <img id="ivory" src="https://drive.google.com/uc?export=view&id=1DE_U8vs_mxCiWNPW1nQSQyaTyq0Jnb4Z">
+        <div class="thumbnail_parent">
+            <div class="thumbnail">
+                <img id="ivoryThumbnail" src="https://drive.google.com/uc?export=view&id=1ZHR7VKJEsUhA7PX2MMQOQojWHY70bRhh" onclick="changeImg1()">
+                <figcaption>781 Ivory</figcaption>
+            </div>
+            <div class="thumbnail">
+                <img id="beigeThumbnail" src="https://drive.google.com/uc?export=view&id=1MoUWues2ceRUPLagzUP7NgCiAdi8cnty" onclick="changeImg2()">
+                <figcaption>782 Beige</figcaption>
+            </div>
+            <div class="thumbnail">
+                <img id="brownThumbnail" src="https://drive.google.com/uc?export=view&id=1oh-zyZB4ueo46DiuWGjRgVBjDC7n5LPb" onclick="changeImg3()">
+                <figcaption>783 Brown</figcaption>
+            </div>
+            <div class="thumbnail">
+                <img id="greyThumbnail" src="https://drive.google.com/uc?export=view&id=1zA9i4dUk9y2HXDvUnE-R6z6iiBRJmOav" onclick="changeImg4()">
+                <figcaption>784 Grey</figcaption>
+            </div>
+            <div class="thumbnail">
+                <img id="darkgreyThumbnail" src="https://drive.google.com/uc?export=view&id=1L_KrTCv89OAO7xTruZy33MiW4ClzCEW1" onclick="changeImg5()">
+                <figcaption>785 Dark Grey</figcaption>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!--CSS-->
+<style>
+    body {
+        margin:0;
+        padding:0;
+        width:100%;
+        height: 100%;
+        display:inline;
+        overflow-x: hidden;
+    }
+    #container {
+        width: 100%; 
+        margin:auto;
+    }
+    #ivory {
+        width: 100%;
+    }
+    .thumbnail_parent {
+        display: inline;
+        font-size: 0;
+    }
+    .thumbnail {
+        padding:0px;
+        margin:0px;
+        width: 20%;
+        display: inline-block;
+        color: white;
+        font-size: 2.5vw;
+    }
+    #ivoryThumbnail, #beigeThumbnail, #brownThumbnail, #greyThumbnail, #darkgreyThumbnail {
+        width: 100%;
+        padding:0px;
+        margin:0px;
+    }
+</style>
+
+<!--Javascript-->
+<script language="javascript">
+    parent.document.getElementsByTagName('iframe')[0].scrolling="no";
+    function changeImg1() {
+        document.getElementById('ivory').src='https://drive.google.com/uc?export=view&id=1DE_U8vs_mxCiWNPW1nQSQyaTyq0Jnb4Z'
+    }
+    function changeImg2() {
+        document.getElementById('ivory').src='https://drive.google.com/uc?export=view&id=10T-Zvk2RlyMosgT9qrEYHsn8-tDkTB9l'
+    }
+    function changeImg3() {
+        document.getElementById('ivory').src='https://drive.google.com/uc?export=view&id=1rf2AR6LVm3Cx9GieRUbvWgzWORoPHGxp'
+    }
+    function changeImg4() {
+        document.getElementById('ivory').src='https://drive.google.com/uc?export=view&id=1u4mkHc08Z6HX-sazOkbn1dfXiU-wPd8_'
+    }
+    function changeImg5() {
+        document.getElementById('ivory').src='https://drive.google.com/uc?export=view&id=1kBhLdVlfHTiYk35s6Hu_8gU5euD03lyi'
+    }
+</script>
